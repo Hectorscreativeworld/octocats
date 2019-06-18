@@ -62,21 +62,12 @@ nav img {
   border-radius: 3px;
 }
 
-/* .image-area::after {
-  content: '';
-  height: 0;
-  width: 0;
-  border: 8px solid transparent;
-  border-top-color: #cacaca;
-  float: right;
-  position: relative;
-  right: 6px;
-  top: 0;
-} */
+
 
 .caption {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
 }
 
 .caption p {
@@ -128,10 +119,10 @@ footer {
   margin: 12px 12px 12px 0;
 }
 
-i {
+/* i {
   color: #ccc;
   font-size: 24px;
-}
+} */
 
 .copyright {
   display: flex;
@@ -145,25 +136,4 @@ i {
   margin: 0;
   line-height: 18px;
   margin-left: 5px;
-}
-
-@media only screen and (max-width: 460px) {
-  .header {
-    justify-content: center;
-    align-content: center;
-  }
-
-  .header img {
-    padding: 15px 0 0;
-  }
-
-  .top-links a {
-    margin: 0 15px;
-  }
-
-  .main-body {
-    display: flex;
-    justify-items: center;
-    width: 90vw;
-  }
 }
